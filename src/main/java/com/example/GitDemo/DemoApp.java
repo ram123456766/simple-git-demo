@@ -16,7 +16,9 @@ public class DemoApp {
         System.out.println("Hello " + name);
     }
 
-    static int addNumbers(int a, int b) {
+    static int addNumbers(int a, int b)
+    {
+        System.out.println("Adding numbers: " + a + " and " + b);
         return a + b;
     }
 
